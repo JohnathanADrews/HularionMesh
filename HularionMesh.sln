@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HularionMesh", "HularionMesh\HularionMesh.csproj", "{B864D37D-1847-4BD0-BF75-5E76F64A0CC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HularionMesh.Connector.HularionDataFile", "HularionMesh.Connector.HularionDataFile\HularionMesh.Connector.HularionDataFile.csproj", "{0F592851-9CC1-471C-B8E5-DC16E0CAF6AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HularionMesh.Connector.Postgres", "HularionMesh.Connector.Postgres\HularionMesh.Connector.Postgres.csproj", "{54A47035-945D-4909-9D16-D693D1432433}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HularionMesh.Connector.Sqlite", "HularionMesh.Connector.Sqlite\HularionMesh.Connector.Sqlite.csproj", "{512D4DD3-54CE-4DD6-8621-F60F24C1E131}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HularionMesh.Serializer.Json", "HularionMesh.Serializer.Json\HularionMesh.Serializer.Json.csproj", "{3AA4F992-3B1B-407E-86A5-1BC1BC1D5EAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HularionMesh.Translator.SqlBase", "HularionMesh.Translator.SqlBase\HularionMesh.Translator.SqlBase.csproj", "{26779AA7-96FF-4FA4-9E22-531F40F2997E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B864D37D-1847-4BD0-BF75-5E76F64A0CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B864D37D-1847-4BD0-BF75-5E76F64A0CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B864D37D-1847-4BD0-BF75-5E76F64A0CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B864D37D-1847-4BD0-BF75-5E76F64A0CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F592851-9CC1-471C-B8E5-DC16E0CAF6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F592851-9CC1-471C-B8E5-DC16E0CAF6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F592851-9CC1-471C-B8E5-DC16E0CAF6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F592851-9CC1-471C-B8E5-DC16E0CAF6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A47035-945D-4909-9D16-D693D1432433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A47035-945D-4909-9D16-D693D1432433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A47035-945D-4909-9D16-D693D1432433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A47035-945D-4909-9D16-D693D1432433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512D4DD3-54CE-4DD6-8621-F60F24C1E131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512D4DD3-54CE-4DD6-8621-F60F24C1E131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512D4DD3-54CE-4DD6-8621-F60F24C1E131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512D4DD3-54CE-4DD6-8621-F60F24C1E131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA4F992-3B1B-407E-86A5-1BC1BC1D5EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA4F992-3B1B-407E-86A5-1BC1BC1D5EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA4F992-3B1B-407E-86A5-1BC1BC1D5EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA4F992-3B1B-407E-86A5-1BC1BC1D5EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26779AA7-96FF-4FA4-9E22-531F40F2997E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26779AA7-96FF-4FA4-9E22-531F40F2997E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26779AA7-96FF-4FA4-9E22-531F40F2997E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26779AA7-96FF-4FA4-9E22-531F40F2997E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14F3F3C1-3703-4956-BBB3-35C958A40453}
+	EndGlobalSection
+EndGlobal

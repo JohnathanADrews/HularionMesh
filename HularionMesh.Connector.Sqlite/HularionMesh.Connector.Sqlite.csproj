@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <ApplicationIcon>HularionIcon.ico</ApplicationIcon>
+    <SignAssembly>False</SignAssembly>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>HularionMesh.Connector.Sqlite</Title>
+    <Authors>Johnathan A Drews</Authors>
+    <Product>Hularion</Product>
+    <Description>Enables Hularion Mesh to store to a Sqlite database.</Description>
+    <Copyright>Copyright (c) 2023-2024 Johnathan A Drews</Copyright>
+    <PackageProjectUrl>http://www.hularion.com</PackageProjectUrl>
+    <PackageIcon>Hularion image.png</PackageIcon>
+    <RepositoryUrl>https://github.com/JohnathanADrews/Hularion</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>hularion mesh orm sql sqlite</PackageTags>
+    <Version>2.0.0</Version>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="HularionIcon.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\Hularion image.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.117" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\HularionMesh.Translator.SqlBase\HularionMesh.Translator.SqlBase.csproj" />
+    <ProjectReference Include="..\HularionMesh\HularionMesh.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net7.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <ApplicationIcon>HularionIcon.ico</ApplicationIcon>
+	  <SignAssembly>False</SignAssembly>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Title>HularionMesh</Title>
+	  <Authors>Johnathan A Drews</Authors>
+	  <Product>Hularion</Product>
+	  <Description>An ORM for the Mesh Data Abstraction, a data representation standard. Handles composites, generics, and self-referencing objects/meshes. Has MeshQuery for expression-defined queries. Has internal in-memory ORM. See HularionMesh connectors to use file or database as data stores. Easily swap data between stores and emit files.</Description>
+	  <Copyright>Copyright (c) 2023-2024 Johnathan A Drews</Copyright>
+	  <PackageProjectUrl>http://www.hularion.com</PackageProjectUrl>
+	  <PackageIcon>Hularion image.png</PackageIcon>
+	  <RepositoryUrl>https://github.com/JohnathanADrews/Hularion</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageTags>hularion mesh orm</PackageTags>
+	  <Version>2.1.2</Version>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="HularionIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Hularion image.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HularionCore\HularionCore.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
